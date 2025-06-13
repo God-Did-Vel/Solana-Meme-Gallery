@@ -1,4 +1,4 @@
-import { Connection, } from '@solana/web3.js';
+import { Connection } from '@solana/web3.js';
 import type { Meme, CreateMemeData } from '../types/meme';
 
 // Mock Solana service - in production, implement actual smart contract interaction
