@@ -1,9 +1,9 @@
-import { Connection } from '@solana/web3.js';
+// import { Connection } from '@solana/web3.js';
 import type { Meme, CreateMemeData } from '../types/meme';
 
 // Mock Solana service - in production, implement actual smart contract interaction
 export class SolanaService {
-  private static _Connection = new Connection('https://api.devnet.solana.com');
+  // private static _Connection = new Connection('https://api.devnet.solana.com');
   
   static async createMeme(data: CreateMemeData, walletAddress: string, ipfsHash: string): Promise<Meme> {
     // Mock smart contract interaction
